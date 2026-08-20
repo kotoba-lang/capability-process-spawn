@@ -2,8 +2,8 @@
 
 Atomic authority package for `process/spawn` (compiler wire id **20**, ADR-t83).
 
-- imports: `#{process-spawn}`
-- effects: `#{system-write :process-exec}`
+- imports: `#{:process-spawn}`
+- effects: `#{:system-write :process-exec}`
 - default policy: `:approval-required`
 - semantic definition CID: `bafyreihqyss6vswxjwjrfeafcuuzphbtzzlyxzbssk3tmut5r3w5ldqlrb`
 - hash contract CID: `bafkreiflhj3fslsbh7okdas2fzlhmogai64x6p3lkla6gtr7berbp7ftvi`
