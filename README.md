@@ -18,5 +18,5 @@ Sibling: [`capability-process-list`](https://github.com/kotoba-lang/capability-p
 covers listing only, not spawn.
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
